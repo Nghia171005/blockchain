@@ -1,0 +1,13 @@
+{
+  "name": "dao-delegate",
+  "version": "1.0.0",
+  "description": "DAO với cơ chế ủy quyền bỏ phiếu - Solidity + OpenZeppelin + Truffle",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2"
+  }
+}
